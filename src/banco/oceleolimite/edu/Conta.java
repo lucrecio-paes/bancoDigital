@@ -8,22 +8,24 @@ public abstract class Conta implements IConta {
     protected double saldo;
 
     public Conta() {
-        this.agencia + AGENCIA_PADRAO;
-        this.numero + SEQUENCIAL++;
+        this.agencia = AGENCIA_PADRAO;
+        this.numero = SEQUENCIAL++;
     }
     @Override
     public void depositar(double valor) {
+        saldo += valor;
 
     }
 
     @Override
     public void sacar(double valor) {
-
+        saldo -= valor;
     }
 
     @Override
     public void transferir(double valor, Conta contaDestino) {
-
+        this.sacar(valor);
+        contaDestino.depositar(valor);
     }
 
 
@@ -39,5 +41,11 @@ public abstract class Conta implements IConta {
         return saldo;
     }
 
+
+    protected void imprimirInfosComuns() {
+        System.out.println(String.format("Agencia: %d", agencia));
+        System.out.println(String.format("Numero: %d", numero));
+        System.out.println(String.format("Saldo: %.2f", saldo));
+    }
 
 }
