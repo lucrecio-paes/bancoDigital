@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce609931-dafb-4c8c-8ced-1f09203a2fe2" name="Changes" comment="Abstração/Modelagem Inicial do Projeto">
+    <list default="true" id="ce609931-dafb-4c8c-8ced-1f09203a2fe2" name="Changes" comment="Encapsulamento/ Alteração da visibilidade de atributos e criação de getters e setters">
+      <change afterPath="$PROJECT_DIR$/src/banco/oceleolimite/edu/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/banco/oceleolimite/edu/IConta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/banco/oceleolimite/edu/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/banco/oceleolimite/edu/Banco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/banco/oceleolimite/edu/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/banco/oceleolimite/edu/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/banco/oceleolimite/edu/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/banco/oceleolimite/edu/ContaCorrente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/banco/oceleolimite/edu/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/banco/oceleolimite/edu/ContaPoupanca.java" afterDir="false" />
     </list>
@@ -17,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -56,7 +57,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669821349544</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Encapsulamento/ Alteração da visibilidade de atributos e criação de getters e setters">
+      <created>1669822877898</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669822877898</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,6 +80,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Abstração/Modelagem Inicial do Projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Abstração/Modelagem Inicial do Projeto" />
+    <MESSAGE value="Encapsulamento/ Alteração da visibilidade de atributos e criação de getters e setters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Encapsulamento/ Alteração da visibilidade de atributos e criação de getters e setters" />
   </component>
 </project>
